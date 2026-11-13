@@ -22,6 +22,11 @@ export class MainMenu extends Scene
             stroke: '#ffffff', strokeThickness: 3,
             align: 'center'
         }).setOrigin(0.5);
+        this.add.text(this.game.config.width * 0.5, 500, "This is m4guii's code breaker game!", {
+            fontFamily: 'Times New Roman', fontSize: 24, color: '#d64b8aff',
+            stroke: '#ffffff', strokeThickness: 3,
+            align: 'center'
+        }).setOrigin(0.5);
 
         this.input.once('pointerdown', () => {
 
