@@ -17,9 +17,9 @@ export class GameOver extends Scene
         let scale = Math.max(scaleX, scaleY);
         bg.setScale(scale).setScrollFactor(0);
 
-        this.add.text(this.game.config.width * 0.5, 384, 'Game Over', {
+        this.add.text(this.game.config.width * 0.5, 384, 'The end.', {
             fontFamily: 'Arial Black', fontSize: 64, color: '#ffffff',
-            stroke: '#000000', strokeThickness: 8,
+            stroke: '#000000', strokeThickness: 3,
             align: 'center'
         }).setOrigin(0.5);
 

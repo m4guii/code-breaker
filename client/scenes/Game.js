@@ -17,9 +17,9 @@ export class Game extends Scene
         let scale = Math.max(scaleX, scaleY);
         bg.setScale(scale).setScrollFactor(0);
 
-        this.add.text(this.game.config.width * 0.5, this.game.config.height * 0.5, 'Make something fun!\nand share it with us:\nsupport@phaser.io', {
+        this.add.text(this.game.config.width * 0.5, this.game.config.height * 0.5, 'GAME MODE', {
             fontFamily: 'Arial Black', fontSize: 38, color: '#ffffff',
-            stroke: '#000000', strokeThickness: 8,
+            stroke: '#000000', strokeThickness: 3,
             align: 'center'
         }).setOrigin(0.5);
 
