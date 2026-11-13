@@ -15,11 +15,11 @@ export class MainMenu extends Scene
         let scale = Math.max(scaleX, scaleY);
         bg.setScale(scale).setScrollFactor(0);
 
-        this.add.image(this.game.config.width * 0.2, 300, 'logo');
+        this.add.image(this.game.config.width * 0.5, 300, 'logo').setScale(0.2);
 
-        this.add.text(this.game.config.width * 0.5, 460, 'Main Menu', {
-            fontFamily: 'Arial Black', fontSize: 38, color: '#ffffff',
-            stroke: '#000000', strokeThickness: 8,
+        this.add.text(this.game.config.width * 0.5, 460, 'Welcome <3', {
+            fontFamily: 'Times New Roman', fontSize: 38, color: '#b90053ff',
+            stroke: '#ffffff', strokeThickness: 3,
             align: 'center'
         }).setOrigin(0.5);
 
